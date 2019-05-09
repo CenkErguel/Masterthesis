@@ -1,22 +1,57 @@
-from urllib.request import urlopen as uReq
-from bs4 import BeautifulSoup as soup
-
-my_url = 'https://www.kununu.com/de/gothaer-versicherungsbank-vvag'
-
-# opening up connection, grabbing the page
-uClient = uReq(my_url)
-page_html = uClient.read()
-
-# closing the connection
-uClient.close()
-
-# html parsing
-page_soup = soup(page_html, 'html.parser')
-
-# grabs each review title
-
-reviews = page_soup.findAll("div", {"class": "review-body"})
-review1 = reviews[0]
+from bs4 import BeautifulSoup
+import requests
+import csv
 
 
-print(reviews)
+source = requests.get('https://www.kununu.com/de/gothaer-versicherungsbank-vvag').text
+soup = BeautifulSoup(source, 'lxml')
+
+csv_file = open('scrape.csv', 'w')
+csv_writer = csv.writer(csv_file)
+csv_writer.writerow(['Header', 'Rating'])
+
+
+# Aktuell werden die </br> Tags nicht richtig in die CSV eingetragen. Muss noch behoben werden
+
+# Iterate over all 'review-body' classes
+for review_body in soup.find_all('div', class_='review-body'):
+
+    # Iterate over all 'h2' Tags inside of each 'review-body' class
+    for review_body_header2 in review_body.find_all('h2'):
+
+        # Check if there is an empty string, if yes fill in 'None'
+        if review_body_header2.text == '':
+            print()
+
+            review_h2 = 'None'
+            print(review_h2)
+
+            review_p = review_body_header2.next_sibling.text
+            print(review_p)
+
+            print()
+            csv_writer.writerow([review_h2,review_p])
+        elif review_body_header2.next_sibling.text == '':
+            print()
+
+            review_h2 = review_body_header2.text
+            print(review_h2)
+
+            review_p = 'None'
+            print(review_p)
+
+            print()
+            csv_writer.writerow([review_h2, review_p])
+        else:
+            print()
+
+            review_h2 = review_body_header2.text
+            print(review_h2)
+
+            review_p = review_body_header2.next_sibling.text
+            print(review_p)
+
+        print()
+        csv_writer.writerow([review_h2, review_p])
+
+csv_file.close()
