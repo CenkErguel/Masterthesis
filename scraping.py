@@ -17,7 +17,6 @@ import csv
 
 url = "https://www.kununu.com/de/gothaer-versicherungsbank-vvag"
 url = url+"/kommentare"
-# driver = webdriver.Chrome('/Users/macintosh/Desktop/Master Thesis/01 Code/chromedriver')
 driver = webdriver.Safari()
 driver.get(url)
 page_num = 0

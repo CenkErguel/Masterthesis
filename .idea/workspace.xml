@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae6aed43-1540-4978-816a-a8b849eaf19d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ScrapeWithNavbar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScrapeWithNavbar.py" beforeDir="false" afterPath="$PROJECT_DIR$/ScrapeWithNavbar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/chromedriver" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/csv_test.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scrapeAll.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrape_new.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scrape_new.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrape_new2.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scraping.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping.py" afterDir="false" />
     </list>
@@ -20,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scraping.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="152">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -32,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScrapeWithNavbar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            <state relative-caret-position="120">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -78,8 +76,9 @@
         <option value="$PROJECT_DIR$/Testings/Test.py" />
         <option value="$PROJECT_DIR$/Testings/scrapeAll.py" />
         <option value="$PROJECT_DIR$/Testings/csv_test.py" />
-        <option value="$PROJECT_DIR$/scraping.py" />
         <option value="$PROJECT_DIR$/Testings/ScrapeWithNavbar.py" />
+        <option value="$PROJECT_DIR$/ScrapeWithNavbar.py" />
+        <option value="$PROJECT_DIR$/scraping.py" />
       </list>
     </option>
   </component>
@@ -100,6 +99,11 @@
             <path>
               <item name="01 Code" type="b2602c69:ProjectViewProjectNode" />
               <item name="01 Code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01 Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01 Code" type="462c0819:PsiDirectoryNode" />
+              <item name="Testings" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,7 +242,7 @@
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978102" visible="true" weight="0.14158577" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978102" visible="true" weight="0.14158577" />
       <window_info id="Structure" order="1" sideWeight="0.50218976" side_tool="true" weight="0.12864077" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -375,16 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scraping.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Testings/Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
@@ -407,8 +401,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ScrapeWithNavbar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        <state relative-caret-position="120">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
