@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae6aed43-1540-4978-816a-a8b849eaf19d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scrapeAll.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScrapeWithNavbar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrape.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scrape.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapeAll.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape_new.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scrape_new.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape_new2.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scraping.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scraping.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1290">
-              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="242">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -28,35 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ScrapeWithNavbar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="12" lean-forward="true" selection-end-line="83" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csv_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-end-line="86" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapeAll.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="300">
+              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -79,6 +59,8 @@
       <find>curre</find>
       <find>html</find>
       <find>csv_file.close()</find>
+      <find>current</find>
+      <find>more_butt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -93,12 +75,15 @@
         <option value="$PROJECT_DIR$/scrapeAll.py" />
         <option value="$PROJECT_DIR$/Test.py" />
         <option value="$PROJECT_DIR$/csv_test.py" />
+        <option value="$PROJECT_DIR$/Testings/Test.py" />
+        <option value="$PROJECT_DIR$/Testings/scrapeAll.py" />
+        <option value="$PROJECT_DIR$/Testings/csv_test.py" />
         <option value="$PROJECT_DIR$/scraping.py" />
+        <option value="$PROJECT_DIR$/Testings/ScrapeWithNavbar.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -108,6 +93,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,13 +105,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CSV_Test">
+  <component name="RunManager" selected="Python.Scraping">
     <configuration name="CSV_Test" type="PythonConfigurationType" factoryName="Python">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,6 +143,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csv_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Scraping" type="PythonConfigurationType" factoryName="Python">
+      <module name="Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scraping.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,16 +193,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scrapeAll" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="scrapeAll" type="PythonConfigurationType" factoryName="Python">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapeAll.py" />
@@ -206,13 +217,9 @@
     <list>
       <item itemvalue="Python.Test" />
       <item itemvalue="Python.CSV_Test" />
+      <item itemvalue="Python.Scraping" />
       <item itemvalue="Python.scrapeAll" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.scrapeAll" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -231,7 +238,27 @@
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978102" visible="true" weight="0.13430421" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978102" visible="true" weight="0.14158577" />
+      <window_info id="Structure" order="1" sideWeight="0.50218976" side_tool="true" weight="0.12864077" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27737227" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329927" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.329927" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Key Promoter X" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978102" visible="true" weight="0.14158577" />
       <window_info id="Structure" order="1" sideWeight="0.50218976" side_tool="true" weight="0.12864077" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -249,7 +276,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Key Promoter X" order="3" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -311,13 +338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrape.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -328,30 +348,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapeAll.py">
+    <entry file="file://$PROJECT_DIR$/scrapeAll.py" />
+    <entry file="file://$PROJECT_DIR$/csv_test.py" />
+    <entry file="file://$PROJECT_DIR$/Test.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/bs4/element.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="278">
+          <caret line="1059" selection-start-line="1059" selection-end-line="1059" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="12" lean-forward="true" selection-end-line="83" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="128">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csv_test.py">
+    <entry file="file://$PROJECT_DIR$/Testings/csv_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-end-line="86" />
+        <state relative-caret-position="163">
+          <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -360,8 +377,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scraping.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="242">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testings/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testings/scrapeAll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapeWithNavbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

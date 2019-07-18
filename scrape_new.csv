@@ -1,4 +1,38 @@
-Header;Text;Rating
+Company;City;Jobstatus;Position;Business Unit;Header;Text;Rating
+Arbeitsbedingungen;Technik und Räume sind gut. Die Laptops sind recht schwer und unhandlich. Räume sind eher alt. Es gibt nur teilweise WLAN und Klimaanlagen. Typische Kaffeeecken fehlen. Es gibt Küchen, allerdings keine Sitzgelegenheiten.;3,00
+Arbeitsatmosphäre;In der Abteilung super. Zwischen den Abteilungen merkt man manchmal Spannungen, der Druck scheint überall recht hoch zu sein.;4,00
+Vorgesetztenverhalten;Meine Vorgesetzten sind sehr nett und man hat wirklich das Gefühl, dass sie einem den Rücken freihalten wollen.;4,00
+Kollegenzusammenhalt;Der AG versucht, sein Wort zu halten und die Gemeinschaft zu fördern. Viele Kollegen bringen sich hier auch ein. Innerhalb meiner Abteilung unterstützen die Kollegen sich, wo sie können.;5,00
+Interessante Aufgaben;Bin zufrieden;5,00
+Gleichberechtigung;Eine der wenigen Punkte, die mich wirklich stören. Frauen in Führungspositionen muss man hier mit der Lupe suchen.;2,00
+Karriere / Weiterbildung;Hier kann man Karriere machen, man sollte allerdings einen langen Atem haben. Die Kollegen müssen sich meist lange beweisen, bevor man ihnen den nächsten Schritt zutraut.;4,00
+Gehalt / Sozialleistungen;Sehr gut!;5,00
+Work-Life-Balance;Im Prinzip wird alles geboten, was das Herz begehrt: Gleitzeit, 38-Stunden-Woche, viele Urlaubstage... Im Alltag ist die Arbeitslast vielerorts allerdings so hoch, dass man davon kaum guten Gewissens Nutzen machen kann. Das wäre verbesserungswürdig.;4,00
+Image;"Das Image ist leider immer noch ""verstaubt"". Davon versucht man sich zwar zu lösen, aber es klappt leider an vielen Stellen noch nicht. Das merkt man auch im Unternehmen selbst. So sind die meisten Kollegen insgesamt zufrieden mit der Gothaer als Arbeitgeber, verdrehen aber auch gerne mal die Augen, wenn die kleinsten Änderungen Monate dauern.";4,00
+Arbeitsatmosphäre;Durch ständige Überwachung der Mitarbeiter wird ständiger Druck aufrecht erhalten;1,00
+Vorgesetztenverhalten;Führungskräfte gibt es keine, nur noch Überwacher und Aufpasser.;1,00
+Kollegenzusammenhalt;Bespitzelung und denunzieren der Kollegen untereinander wird gefordert und gefördert, entsprechend schlecht ist der Zusammenhalt.;1,00
+Interessante Aufgaben;Monotonie pur. Die Gothaer ist zu einer Versicherungsfabrik geworden.;1,00
+Kommunikation;Mitarbeiter werden per se vor vollendete Tatsachen gestellt;1,00
+Gleichberechtigung;"Einzelne Mitarbeiter sollen Schuld sein das die Zahlen ganzer Teams schlecht sind. Entsprechende ""schuldige"" haben nichts zu lachen und nur noch die schlechtesten Dienste.";2,00
+Umgang mit älteren Kollegen;Zwischen älteren oder jüngeren Kollegen wird kein Unterschied gemacht. Alle werden gleich schlecht behandelt.;5,00
+Karriere / Weiterbildung;Wer schleimt gewinnt. Allerdings sind die Hierarchien so flach das man auch dann selten weiter kommt.;1,00
+Gehalt / Sozialleistungen;Gehalt überdurchschnittlich. Sozialleistungen ein Witz.;1,00
+Arbeitsbedingungen;Systeme aus den 80ern, totale Überwachung und jeden Tag Druck.;1,00
+Umwelt- / Sozialbewusstsein;Es gibt Ladestationen für E Autos. Sozialleistungen gibt es keine.;2,00
+Work-Life-Balance;Oft weiß man Donnerstags noch nicht wie man die Wochen darauf arbeiten muss. Private Termine zu organisieren ist so fast unmöglich.;1,00
+Image;Gibt man Gothaer in Suchmaschinen ein und sieht sich die letzten Neuigkeiten an weiß man um das Image Bescheid.;2,00
+Arbeitsatmosphäre;Direktes Arbeitsumfeld war super, KollegeInnen durchweg nett und i.O.;3,00
+Vorgesetztenverhalten;"Äußerst schwach, Kommunikation mit BL / GF katastrophal; wurde von denen als lästig empfunden und so auch zurückgemeldet.";1,00
+Kollegenzusammenhalt;Super!!!!;5,00
+Kommunikation;Informationen durch die GF und den BR erfolgten periodisch;3,00
+Umgang mit älteren Kollegen;wurden aussortiert - outgesourct;1,00
+Karriere / Weiterbildung;Weiterblidungsmöglichkeiten wurden angeboten intern und extern !;3,00
+Gehalt / Sozialleistungen;Gehalt kam pünktlich und wurde durch tarifliche Erhöhungen angepasst - auch für außertarifliche MA.;5,00
+Arbeitsbedingungen;Büros sind ganz okay;3,00
+Umwelt- / Sozialbewusstsein;Hier war erhebliche Nachholbedarf - keine Zuständigkeit - also nichts!;2,00
+Work-Life-Balance;Gute, sehr liberale Gleitzeitregelung;4,00
+Image;okay;2,00
 Vorgesetztenverhalten;Sehr nette Vorgesetze mit denen man auch mal offen sprechen kann. Es wird auf Probleme eingegangen, darüber gesprochen und nach Lösungen gesucht um künftige Konflikte oder Sonstiges zu vermeiden. Respektvoller Umgang mit den Arbeitnehmern. Verständnis für persönliche Probleme.;4,00
 Kollegenzusammenhalt;Die Kollegen sind allesamt sehr freundlich und nett. Es wird öfter auch mal gescherzt und miteinander gelacht. Angenehme Atmosphäre im Team.;4,00
 Interessante Aufgaben;Arbeitsbelastung ist nicht sonderlich hoch, verlagert sich aber hauptsächlich auf Kundenservice am Telefon (und Bearbeitung von Schriftstücken). Aufgabengebiet ist festgelegt und im Detail nicht breit gefächert.;2,00
@@ -519,3 +553,33 @@ Kommunikation;Nur sehr schleppend werden Informationen weitergegeben. Beim Einho
 Arbeitsbedingungen;Leider kein Geld für vernünftige Räumlichkeiten oder Büromöbel.;3,00
 Work-Life-Balance;Sehr schwieriges Thema, da die Anreisezeit ziemlich lange ist. Aber auch die Möglichkeit mal von zu Hause zu arbeiten wird einem nicht gegeben.;3,00
 Work-Life-Balance;Leider sind im Bereich der work life balance noch Verbesserungsmöglichkeiten gegeben. Jedoch versuchen die Führungsverantwortlichen hier durch Verkürzung der Service Zeiten und Verringerung der Arbeitszeiten sehr viel, um dies zu ermöglichen. Die erforderliche Nachbesetzung von neuen Mitarbeitern wird fieberhaft umgesetzt, jedoch ist dies aufgrund der Marktsituation wohl schwieriger als gedacht und geht noch zu Lasten der Mitarbeiter;3,00
+Die Ausbilder;Sehr freundlich und hilfsbereit;5,00
+Spaßfaktor;Die Stimmung am Arbeitsplatz ist i.d.R. sehr positiv;5,00
+Betriebsklima;Es herrscht eine sehr gute Arbeitsatmosphäre !;5,00
+Arbeitszeiten;Gleitzeit;5,00
+Die Ausbilder;Qualitativ hochwertige Ausbildung von netten Ausbildern;5,00
+Spaßfaktor;Hoch. Abwechslungsreiche und interessante Tätigkeiten in einem super Team.;5,00
+Aufgaben/Tätigkeiten;Vor allem Berechnung von Versicherungen und Betreuung von Kunden. Neben der Ausbildung bleibt noch genug Zeit zum Lernen und zu besonderen Anlässen (Projekt,Prüfungen) kann nach Rücksprache auch Arbeitszeit verwendet werden;5,00
+Abwechslung;Spannendes und abwechslungsreiches Alltagsgeschäft. In der Regionaldirekton durch die räumliche Gebundenheit etwas eingeschränkt. Dafür aber auch Außendiensteinsätze;4,00
+Respekt;Äußerst respektvoller Umgang;5,00
+Karrierechancen;Bei erfolgreichem Abschluss vielfältige Möglichkeiten zur Weiterbeschäftigung;4,00
+Betriebsklima;Sehr entspanntes Arbeiten mit freundlichen Kollegen;5,00
+Ausbildungsvergütung;Tarifvertrag;5,00
+Arbeitszeiten;Gleitzeit. Nach Absprache mit den Kollegen kann Arbeitszeit flexibel eingeteilt werden;5,00
+Die Ausbilder;Ich bin mit Bauchschmerzen zur Arbeit gegangen, weil jeder Tag unerträglich war mit meinen Ausbildern. Kommunikationsprobleme, da diese ausschließlich über E-Mail erfolgte, obwohl ich Azubine im Büro nebenan saß. Fakt war außerdem immer: DIE AZUBIS WAREN DAS! Ohne vorher mit uns zu sprechen, wurde direkt Beschwerde eingelegt. Wenn man mal einen Fehler machte verdrehte man direkt genervt die Augen.  Auf meinen Wunsch in eine Agentur versetzt zu werden, sagte man mir immer dies sei nicht möglich. Da ich wirklich kurz davor war alles hinzuwerfen weil mich die Situation so psychisch belastet hat, habe ich in ein anderes Unternehmen gewechselt. Kurz nachdem ich bei der Gothaer gekündigt hatte, konnte man mit aufeinmal alles wovor ich vorher ein halbes Jahr gut gekämpft habe ermöglichen. Ich weiß, so wird es sicherlich nicht überall sein, aber für die RD Köln kann ich leider kein positives Feedback geben!;2,00
+Aufgaben/Tätigkeiten;Waren nach einem halben Jahr Ausbildung noch immer die gleichen!;3,00
+Respekt;Von den Vertriebsleitern absolut ! Jedoch vom Innendienst keinerlei Respekt gegenüber den Azubis;2,00
+Karrierechancen;Ganz klar, sind gegeben ! Förderung der Azubis echt gut;4,00
+Betriebsklima;Du sitzt dort mit der Angst, wieder für irgendwas schuldig gemacht zu werden;2,00
+Ausbildungsvergütung;Mega!;5,00
+Die Ausbilder;Kompetent und sorgsam. Bei Fragen oder Hilfe kann man sich immer an Sie wenden. Gut finde ich auch dass man mehrere Ansprechpartner hat.;5,00
+Spaßfaktor;Natürlich gibt es auch stressige Phasen, besonders zum Jahresende, aber die Gothaer ist wie eine große Familie mit der die Arbeit natürlich auch Spaß macht.;4,00
+Aufgaben/Tätigkeiten;Hauptsächlich im Außendienst, deshalb ist der Arbeitsalltag super abwechslungsreich. Natürlich gibt es auch mal Tage die man nur im Büro verbringt um sich um das administrative zu kümmern.;5,00
+Abwechslung;Durch den Agentureinsatz super abwechslungsreich.;5,00
+Respekt;Respektvoller Umgang im Unternehmen.;5,00
+Karrierechancen;Auch nach der Ausbildung hat man viele Möglichkeiten weiterhin im Betrieb zu bleiben. Die Gothaer fördert sehr gerne fleißige und gute Azubis. Besonders das Trainee Programm unterstützt junge Berufseinsteiger weiterhin 3 Jahre mit intensiver Förderung zur Selbstständigkeit.;5,00
+Betriebsklima;Entspannt und respektvoll.;5,00
+Ausbildungsvergütung;Grundvergütung für eine Ausbildung hoch zusätzlich noch die Möglichkeit dies durch Provision aufzubessern;5,00
+Arbeitszeiten;Gleitzeit;5,00
+Abwechslung;Abteilungswechsel innerhalb des Studiums jede 4-9 Monate;5,00
+Arbeitszeiten;Gleitzeit;5,00

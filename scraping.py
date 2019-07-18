@@ -16,13 +16,19 @@ import csv
 
 
 url = "https://www.kununu.com/de/gothaer-versicherungsbank-vvag"
+url = url+"/kommentare"
 # driver = webdriver.Chrome('/Users/macintosh/Desktop/Master Thesis/01 Code/chromedriver')
 driver = webdriver.Safari()
 driver.get(url)
 page_num = 0
 
+# Create CSV-File
+csv_file = open('scrape_new_test.csv', 'w')
+csv_writer = csv.writer(csv_file, delimiter=';')
+csv_writer.writerow(['Header', 'Text', 'Rating'])
+
 # First click on the "Mehr Bewertungen lesen" Button
-more_buttons = driver.find_element_by_css_selector('.btn.btn-primary.btn-block.ng-isolate-scope').click()
+#more_buttons = driver.find_element_by_css_selector('.btn.btn-primary.btn-block.ng-isolate-scope').click()
 
 # Wait 10 sec to load the page
 time.sleep(10)
@@ -35,21 +41,19 @@ hasLoadMore = True
 while hasLoadMore:
     time.sleep(5)
     try:
-        if driver.find_elements_by_css_selector('.btn.btn-default.btn-block.ng-isolate-scope') or driver.find_elements_by_css_selector('.btn.btn-default.btn-block.ng-isolate-scope'):
+        if driver.find_elements_by_css_selector('.btn.btn-default.btn-block.ng-isolate-scope'):
             driver.find_element_by_css_selector('.btn.btn-default.btn-block.ng-isolate-scope').click()
             page_num += 1
             print("getting page number "+str(page_num))
             # print(current_url)
             time.sleep(5)
+        else:
+            hasLoadMore = False
     except:
         hasLoadMore = False
 
 page_source = driver.page_source
-
 soup = BeautifulSoup(page_source, 'lxml')
-csv_file = open('scrape_new.csv', 'w')
-csv_writer = csv.writer(csv_file, delimiter=';')
-csv_writer.writerow(['Header', 'Text', 'Rating'])
 
 
 # Find all Review-Bodies, which include the reviews
@@ -83,4 +87,3 @@ for review_body in soup.find_all('div', class_='review-body'):
 csv_file.close()
 
 #driver.quit()
-
