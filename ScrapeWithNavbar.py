@@ -20,9 +20,11 @@ soup = BeautifulSoup(page_source, 'lxml')
 
 csv_file = open('scrape_new.csv', 'w')
 csv_writer = csv.writer(csv_file, delimiter=';')
-csv_writer.writerow(['ID', 'Company', 'City', 'Jobstatus', 'Position', 'Business Unit', 'Header', 'Text', 'Rating'])
+csv_writer.writerow(['ID', 'Company', 'Rating Date', 'City', 'Jobstatus', 'Position', 'Business Unit', 'Header', 'Text', 'Rating'])
 
 time.sleep(5)
+
+
 
 
 
@@ -36,27 +38,29 @@ for div in soup.find_all('nav', class_='navbar company-profile-subnav'):
         print(navbar_item_number)
 
         control_value = 0
-        hasLoadMore = True
+        print(control_value)
+
         while control_value != navbar_item_number:
+
+            page_source = driver.page_source
+            soup = BeautifulSoup(page_source, 'lxml')
 
             try:
                 if driver.find_elements_by_css_selector('.btn.btn-default.btn-block.ng-isolate-scope'):
                     driver.find_element_by_css_selector('.btn.btn-default.btn-block.ng-isolate-scope').click()
 
-                page_source = driver.page_source
-                soup = BeautifulSoup(page_source, 'lxml')
+
 
                 control_value = len(soup.find_all('article', class_='company-profile-review'))
                 print(control_value)
 
             except:
 
-                page_source = driver.page_source
-                soup = BeautifulSoup(page_source, 'lxml')
+                #page_source = driver.page_source
+                #soup = BeautifulSoup(page_source, 'lxml')
 
                 control_value = len(soup.find_all('article', class_='company-profile-review'))
                 print('EXCEPT', control_value)
-
 
         page_source = driver.page_source
         soup = BeautifulSoup(page_source, 'lxml')
@@ -66,6 +70,8 @@ for div in soup.find_all('nav', class_='navbar company-profile-subnav'):
 
         for art in soup.find_all('article', class_='company-profile-review'):
 
+            rating_date = art.ul.li.span.next_sibling.text
+            
             # Find all Review-Bodies, which include the reviews
             for review_body in art.find_all('div', class_='review-body'):
 
@@ -113,7 +119,7 @@ for div in soup.find_all('nav', class_='navbar company-profile-subnav'):
                                         position = correct_details
                                     elif format_details == 'Unternehmensbereich':
                                         business_unit = correct_details
-                            csv_writer.writerow([user_ID, company, city, jobstatus, position, business_unit, h2, p, rating_star])
+                            csv_writer.writerow([user_ID, company, rating_date, jobstatus, position, business_unit, h2, p, rating_star])
 
 csv_file.close()
 print(sum_articles)
