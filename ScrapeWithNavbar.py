@@ -13,20 +13,25 @@ url = url+'/kommentare'
 driver = webdriver.Safari()
 driver.get(url)
 
-
 # Das muss nach den Clicks kommen und dann jedes mal wenn der nächste Reiter durchgeklickt wird nochmal!
 page_source = driver.page_source
 soup = BeautifulSoup(page_source, 'lxml')
 
 csv_file = open('scrape_new.csv', 'w')
 csv_writer = csv.writer(csv_file, delimiter=';')
-csv_writer.writerow(['ID', 'Company', 'Rating Date', 'City', 'Jobstatus', 'Position', 'Business Unit', 'Header', 'Text', 'Rating'])
+csv_writer.writerow(
+                    ['ID',
+                     'Company',
+                     'Rating Date',
+                     'City',
+                     'Jobstatus',
+                     'Position',
+                     'Business Unit',
+                     'Header',
+                     'Text',
+                     'Rating'])
 
 time.sleep(5)
-
-
-
-
 
 # Click through the second navbar "Mitarbeiter", "Bewerber", "Azubis", etc.
 for div in soup.find_all('nav', class_='navbar company-profile-subnav'):
@@ -34,11 +39,12 @@ for div in soup.find_all('nav', class_='navbar company-profile-subnav'):
         navbar_item = li.text
         print(navbar_item)
         driver.find_element_by_link_text(navbar_item).click()
-        navbar_item_number = int(li.span.text)
-        print(navbar_item_number)
+        navbar_item_number = int(li.a.span.text.replace(".", ""))
+
+        print(navbar_item_number, type(navbar_item_number))
 
         control_value = 0
-        print(control_value)
+        print(control_value, type(control_value))
 
         while control_value != navbar_item_number:
 
@@ -48,8 +54,6 @@ for div in soup.find_all('nav', class_='navbar company-profile-subnav'):
             try:
                 if driver.find_elements_by_css_selector('.btn.btn-default.btn-block.ng-isolate-scope'):
                     driver.find_element_by_css_selector('.btn.btn-default.btn-block.ng-isolate-scope').click()
-
-
 
                 control_value = len(soup.find_all('article', class_='company-profile-review'))
                 print(control_value)
@@ -119,7 +123,18 @@ for div in soup.find_all('nav', class_='navbar company-profile-subnav'):
                                         position = correct_details
                                     elif format_details == 'Unternehmensbereich':
                                         business_unit = correct_details
-                            csv_writer.writerow([user_ID, company, rating_date, jobstatus, position, business_unit, h2, p, rating_star])
+
+                            csv_writer.writerow(
+                                                [user_ID,
+                                                 company,
+                                                 rating_date,
+                                                 city,
+                                                 jobstatus,
+                                                 position,
+                                                 business_unit,
+                                                 h2,
+                                                 p,
+                                                 rating_star])
 
 csv_file.close()
 print(sum_articles)
