@@ -17,7 +17,8 @@ hrefs = []
 # Take all links from the column 'Firmen als Arbeitgeber'
 list_links = 30
 
-for link in range(3,30):
+# DONE
+for link in range(29,30):
     # Ä, Ö and Ü has not enough values, so they need to be catched
     if link == 2:
         driver.find_elements_by_css_selector('.links-fine')[link].click()
@@ -87,9 +88,9 @@ for link in range(3,30):
         list_links_inner = len(driver.find_elements_by_css_selector('.links-fine'))
         print(list_links_inner)
         for link_inner in range(list_links_inner):
-            time.sleep(5)
+            time.sleep(10)
             driver.find_elements_by_css_selector('.links-fine')[link_inner].click()
-            time.sleep(5)
+            time.sleep(10)
             page_source = driver.page_source
             soup = BeautifulSoup(page_source, 'lxml')
             list_links_inner_inner = len(driver.find_elements_by_css_selector('.col-xs-12'))
@@ -103,7 +104,7 @@ for link in range(3,30):
                 print(hrefs)
                 print(len(hrefs))
             driver.execute_script("window.history.go(-1)")
-            time.sleep(5)
+            time.sleep(10)
             page_source = driver.page_source
             soup = BeautifulSoup(page_source, 'lxml')
             if link_inner + 1 == list_links_inner:
