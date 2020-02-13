@@ -8,7 +8,7 @@ page_num = 0
 sum_articles = 0
 user_ID = 0
 
-url = "https://www.kununu.com/de/gothaer-versicherungsbank-vvag"
+url = "https://www.kununu.com/de/admiraldirektde1"
 url = url+'/kommentare'
 driver = webdriver.Safari()
 driver.get(url)
@@ -17,7 +17,7 @@ driver.get(url)
 page_source = driver.page_source
 soup = BeautifulSoup(page_source, 'lxml')
 
-csv_file = open('scrape_new.csv', 'w')
+csv_file = open('scrape_new.csv', 'a')
 csv_writer = csv.writer(csv_file, delimiter=';')
 csv_writer.writerow(
                     ['ID',
@@ -38,7 +38,7 @@ for div in soup.find_all('nav', class_='navbar company-profile-subnav'):
     for li in div.find_all('li'):
         navbar_item = li.text
         print(navbar_item)
-        driver.find_element_by_link_text(navbar_item).click()
+        driver.find_element_by_link_text(navbar_item).send_keys("\n")
         navbar_item_number = int(li.a.span.text.replace(".", ""))
 
         print(navbar_item_number, type(navbar_item_number))
@@ -46,14 +46,19 @@ for div in soup.find_all('nav', class_='navbar company-profile-subnav'):
         control_value = 0
         print(control_value, type(control_value))
 
-        while control_value != navbar_item_number:
+        time.sleep(2)
+
+        if driver.find_elements_by_css_selector('.btn.btn-default.btn-block.ng-isolate-scope'):
+            driver.find_element_by_css_selector('.btn.btn-default.btn-block.ng-isolate-scope').send_keys("\n")
+
+        while control_value != navbar_item_number and control_value < navbar_item_number:
 
             page_source = driver.page_source
             soup = BeautifulSoup(page_source, 'lxml')
 
             try:
                 if driver.find_elements_by_css_selector('.btn.btn-default.btn-block.ng-isolate-scope'):
-                    driver.find_element_by_css_selector('.btn.btn-default.btn-block.ng-isolate-scope').click()
+                    driver.find_element_by_css_selector('.btn.btn-default.btn-block.ng-isolate-scope').send_keys("\n")
 
                 control_value = len(soup.find_all('article', class_='company-profile-review'))
                 print(control_value)
@@ -73,6 +78,7 @@ for div in soup.find_all('nav', class_='navbar company-profile-subnav'):
         print(sum_articles)
 
         for art in soup.find_all('article', class_='company-profile-review'):
+            user_ID = user_ID + 1
 
             rating_date = art.ul.li.span.next_sibling.text
             
@@ -102,8 +108,6 @@ for div in soup.find_all('nav', class_='navbar company-profile-subnav'):
 
                         # check if the rating_h2 is the same as the h2 of the review-body
                         if rating_h2 == h2:
-
-                            user_ID = user_ID + 1
 
                             # Include the sidebar information as well
                             for review_details in art.find_all('div', class_='review-details user-content hidden-xs'):
