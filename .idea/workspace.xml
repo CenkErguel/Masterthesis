@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae6aed43-1540-4978-816a-a8b849eaf19d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Complete_Scraper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScrapeWithNavbar.py" beforeDir="false" afterPath="$PROJECT_DIR$/ScrapeWithNavbar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrape_new.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scrape_new.csv" afterDir="false" />
@@ -17,11 +18,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ScrapeWithNavbar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="300">
+              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Complete_Scraper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -47,6 +57,20 @@
       <find>driver.get</find>
       <find>try</find>
       <find>user</find>
+      <find>url</find>
+      <find>for</find>
+      <find>sum_art</find>
+      <find>business</find>
+      <find>writer</find>
+      <find>alten-und</find>
+      <find>fruchtservice-vertriebs</find>
+      <find>sibling</find>
+      <find>https://www.kununu.com/de/360report</find>
+      <find>navbar_item_number</find>
+      <find>https://www.kununu.com/de/abex-stahlbau-rohrbiegen</find>
+      <find>https://www.kununu.com/de/aconext-holding</find>
+      <find>https://www.kununu.com/de/aims-international-germany1</find>
+      <find>time</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -67,12 +91,13 @@
         <option value="$PROJECT_DIR$/Testings/ScrapeWithNavbar.py" />
         <option value="$PROJECT_DIR$/scraping.py" />
         <option value="$PROJECT_DIR$/ScrapingList.py" />
+        <option value="$PROJECT_DIR$/Complete_Scraper.py" />
         <option value="$PROJECT_DIR$/ScrapeWithNavbar.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="38" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
@@ -122,7 +147,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ScrapeWithNavbar">
+  <component name="RunManager" selected="Python.Complete_Scraper">
+    <configuration name="Complete_Scraper" type="PythonConfigurationType" factoryName="Python">
+      <module name="Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Complete_Scraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ScrapeWithNavbar" type="PythonConfigurationType" factoryName="Python">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,6 +235,7 @@
     <list>
       <item itemvalue="Python.Scraping" />
       <item itemvalue="Python.ScrapeWithNavbar" />
+      <item itemvalue="Python.Complete_Scraper" />
       <item itemvalue="Python.ScrapingList" />
     </list>
   </component>
@@ -206,7 +253,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.14644013" />
@@ -347,8 +394,8 @@
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/bs4/element.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="1399" selection-start-line="1399" selection-end-line="1399" />
+        <state relative-caret-position="131">
+          <caret line="1060" selection-start-line="1060" selection-end-line="1060" />
         </state>
       </provider>
     </entry>
@@ -359,10 +406,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Complete_Scraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ScrapeWithNavbar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="300">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
