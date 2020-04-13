@@ -2,7 +2,6 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 import time
 
-
 url = "https://www.kununu.com/de/sitemap"
 driver = webdriver.Safari()
 driver.get(url)
