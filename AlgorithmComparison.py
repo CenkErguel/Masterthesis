@@ -137,7 +137,7 @@ X_train, X_val, y_train, y_val = train_test_split(X,
                                                   train_size = 0.75
                                                   )
 
-"""**Logistic Regression**"""
+"""**Logistic Regression**""" 
 
 lr = LogisticRegression(C=1, max_iter=500)
 lr.fit(X_train, y_train)
