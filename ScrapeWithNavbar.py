@@ -5,7 +5,6 @@ import requests
 import csv
 
 
-
 def scrape_data(urls):
     page_num = 0
     sum_articles = 0
