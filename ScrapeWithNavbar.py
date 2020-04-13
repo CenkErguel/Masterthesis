@@ -11,7 +11,7 @@ def scrape_data(urls):
     user_ID = 3860
     url_counter = 44543
 
-    csv_file = open('scrape_new_complete_v5.csv', 'w')
+    csv_file = open('Dataset.csv', 'w')
     csv_writer = csv.writer(csv_file, delimiter=';')
     csv_writer.writerow(
         ['ID',
